@@ -36,7 +36,7 @@ O projeto adota o padrão MVC (Model-View-Controller) estruturado da seguinte fo
 
 1. **Clonar o repositório**:
    ```bash
-   git clone <url_do_repositorio>
+   git clone https://github.com/joaomk/seventh-backend.git
    cd seventh
    ```
 
