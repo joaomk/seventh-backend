@@ -8,6 +8,8 @@ Este projeto é um teste técnico para desenvolvedor Java Full Stack na Seventh,
 - Integração com o banco de dados MySQL utilizando Spring Data JPA.
 - Migrações automatizadas de banco de dados com Flyway.
 - Documentação automática da API com OpenAPI/Swagger UI.
+- Cobertura com testes utilizando Mockito e integração com banco H2.
+
 
 ## Arquitetura do Projeto
 
@@ -57,6 +59,12 @@ O projeto adota o padrão MVC (Model-View-Controller) estruturado da seguinte fo
    Após a inicialização, a documentação interativa estará disponível em:
    ```
    http://localhost:8080/swagger-ui.html
+   ```
+   
+6. **Testes**:
+   Para rodar os testes, utilize o comando:
+   ```bash
+   mvn test
    ```
 
 ## Scripts de Migração do Flyway
